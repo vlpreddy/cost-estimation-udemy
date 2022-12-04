@@ -1,0 +1,86 @@
+The most common melding of methods is between Agile and traditional project management “waterfall” style. And the most common question in this melding is how to make plans that stakeholders or customers can “sign off” when Agile is supposed to embrace change. One practical aspect of that is figuring out a budget for a project. This article gives a fairly good description of how this can be done.
+A former student of mine called the other day. He asked a good question: how do you calculate the budget for a project if you are using an Agile approach to delivery. Here is the overview of the six steps to do this. I will follow the overview with some detailed comments.
+
+Prepare and estimate the project requirements using Planning Poker
+
+Determine the team’s Velocity
+
+Using the team’s burn rate and velocity calculate the budget for the Iterations
+
+Add any capital costs
+
+Using the definition of “done” add pre- and post- Iteration budgets
+
+Apply a drag or fudge or risk factor to the overall estimate
+
+Prepare and estimate the project requirements using Planning Poker
+
+The project requirements have to be listed out in some order and then estimated. If you are using Scrum as your Agile approach, you will be creating a Product Backlog. Extreme Programming and you will be creating user stories. OpenAgile and you will be creating Value Drivers. Kanban and you will have a backlog of work in progress. Regardless of the Agile approach you are using, in a project context you can estimate the work using the Planning Poker game.
+
+Once you have your list, you need to get the team of people who will be working on the list to do the estimation. Estimation for Agile methods cannot be done by someone not on the team – this is considered invalid. It’s like asking your work buddy to estimate how much time it will take to clean your own house and then telling your kids that they have to do it in that amount of time. In other words, it’s unfair.
+
+Planning Poker results in scores being assigned to each item of your list. Those scores are not yet attached to time – they simply represent the relative effort of each of the items. To connect the scores to time, we move to the next step…
+
+Determine the team’s Velocity
+
+The team needs to select its cycle (sprint, iteration) length. For software projects, this is usually one or two weeks, and more rarely three or four weeks. In other industries it may be substantially different. I have seen cycles as short as 12 hours (24/7 mining environment) and as long as 3 months (volunteer community organization).
+
+Once the duration of the cycle is determined, the team can use a simple method to estimate how much work they will accomplish in a cycle. Looking at the list of work to be done, the team starts at the top item and gradually working their way down, decide what can fit (cumulatively) into their very first cycle.
+
+Verbally, the conversation will go something like this:
+
+“Can we all agree that we can fit the first item into our first cycle?”
+
+– everyone responds “Yes”
+
+“Let’s look at the second item. Can we do the first item AND the second item in our first cycle?”
+
+– a little discussion about what it might take to do the second item, and then everyone responds “Yes”
+
+“Okay. What about adding the third item?”
+
+– more discussion, some initial concern, and finally everyone agrees that it too can fit
+
+“How about adding the fourth item?”
+
+– much more concern, with one individually clearly stating “I don’t think we can add it.”
+
+“Okay. Let’s stop with just the first three.”
+
+Those items chosen in this way represent a certain number of points (you add up the scores from the Planning Poker game). The number of points that the team thinks it can do in a cycle is referred to as its "Planning Velocity" or just “Velocity”. With the velocity, we can then do one of the most important calculations in doing a budget…
+
+Using the team’s burn rate and velocity, calculate the budget for the Iterations
+
+The team’s velocity is a proxy for how much work the team will get done in a cycle. However, in order to understand a budget for the overall project, we need to take that estimate of the team’s output and divide it into the total amount of work.
+
+Our list has scores on all the items. Sum up the scores, then divide by the velocity to give you the number of cycles of work the team will need to complete the list.
+
+For example, if after doing Planning Poker, the sum total of all the scores on all the items is 1000, and the team’s velocity is 50, then 1000 ÷ 50 = 20… This is the time budget for the team’s work to deliver these items.
+
+To do dollar budgeting, you also need to know the team’s burn rate: how much does it cost to run the team for a cycle. This is usually calculated based on the fully-loaded cost of a full-time-employee and you can often get this number from someone in finance or from a manager (sometimes you can figure it out from publicly available financial data).
+
+In general, for knowledge workers, the fully-loaded cost of a full time employee is in the range of $100000/yr to $150000/yr. Convert that to a per-cycle, per-person cost (e.g. $120000/yr ÷ 52 weeks/year x 2 weeks/cycle = $4615/person/cycle) and then multiply by the number of people on the team (e.g. $4615 x 7 people = $32305/cycle). Finally, multiply the per-cycle cost by the number of cycles (e.g. $32305 x 20 cycles = $646100).
+
+This is the budget for the part of the project done in the cycles by the Agile team. But of course, there are also other costs to be accounted.
+
+Add any capital costs
+
+Not many projects are solely labor costs. Equipment purchases, supplies, tools, or larger items such as infrastructure, land or vehicles may all be required for your project. Most Agile methods do not provide specific guidance on how to account for these items since Agile methods stem from software development where these costs tend to be minimal relative to labor costs.
+
+However, as a Project Manager making a budget estimate, you need to check with the team (after the Planning Poker game) to determine if they know of any large purchases required for the completion of the project. Be clear to them what you mean by “large” – in an Agile environment, this is anything that has a cost similar to or more than the labor cost of a cycle (remember: Agile projects should last at least several cycles so this is a relatively small percentage of the labor costs).
+
+In the previous example calculation, the cost per cycle was $32305 so you might ask them about any purchases that will be $30k or larger. Add these to the project budget.
+
+Using the definition of “done” add pre- and post- Iteration budgets
+
+Every Agile team is supposed to be “cross-functional” but in reality, there are limits to this. For example, in most software project environments, teams do not include full-time lawyers. This limited cross-functionality determines what the team is capable of delivering in each cycle – anything outside the team’s expertise is usually done as either pre-work or after the iterations (cycles) are finished.
+
+Sometimes, this work can be done concurrently with the team. In order to understand this work, it is often valuable to draw an organization-wide value stream map for project delivery. This map will show you the proportion of time spent for each type of work in the project.
+
+Subtract out all the work that will be done inside the Agile team (their definition of “done”) and you are left with a proportion of work that must be done outside the Agile team. Based on the proportions found in the value stream map, add an appropriate amount of budget based on the project’s cycle labor costs.
+
+Apply a drag or fudge or risk factor to the overall estimate
+
+And of course, to come up with a final estimate, add some amount based on risk or uncertainty (never subtract!) Generally speaking, before this step, your project budget is going to be +/- 20%-50% depending on how much you have used this approach in the past. If you are familiar with it and have used it on a few projects, your team will be much better at understanding their initial velocity which is the foundation for much of the remaining budget estimates. On the other hand, if you are using this method for the first time, there is a high degree of anxiety and uncertainty around the estimation process. Please feel free to add a buffer that you feel is appropriate.
+
+But again, never, ever, ever remove time or money from the budget at this last step.
