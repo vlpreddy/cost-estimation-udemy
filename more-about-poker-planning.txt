@@ -1,37 +1,37 @@
-The Planning Poker Process
+#The Planning Poker Process
 #Benchmarking. The team quickly reviews all the items and chooses the one which has the lowest effort. Write the number “2” on this card (usually in the bottom right corner). Using a "2" allows the team some wiggle room in case they later find an even smaller item! This item is the benchmark item and is used by the team to compare all the other items.
 
-The team finds and reviews the item with the highest estimated business value and the Product Owner (or other subject matter expert) briefly explains the business intent of the item. The discussion should avoid getting into technical implementation details, but may touch on high-level solution ideas and options.
+#The team finds and reviews the item with the highest estimated business value and the Product Owner (or other subject matter expert) briefly explains the business intent of the item. The discussion should avoid getting into technical implementation details, but may touch on high-level solution ideas and options.
 
-Voting. Each team member thinks about how much effort the team will expend to fully complete all the work for the item considering the various skills and abilities and capacity of each team member. Comparing this work to the work effort for the benchmark item, each team member privately selects a Planning Poker card from their own personal set that represents this relative effort. For example, if you think that it requires ten times the effort, you would select the “20” card. It is not permissible to select two cards nor to make new cards with different numbers.
+#Voting. Each team member thinks about how much effort the team will expend to fully complete all the work for the item considering the various skills and abilities and capacity of each team member. Comparing this work to the work effort for the benchmark item, each team member privately selects a Planning Poker card from their own personal set that represents this relative effort. For example, if you think that it requires ten times the effort, you would select the “20” card. It is not permissible to select two cards nor to make new cards with different numbers.
 
-Each team member places their selected card, number-side down, on the table or virtual surface so that other team members cannot see the numbers. Once all team members have done this, everyone turns the cards over simultaneously to reveal the numbers. This is the current "vote" on the estimated effort of the item.
+#Each team member places their selected card, number-side down, on the table or virtual surface so that other team members cannot see the numbers. Once all team members have done this, everyone turns the cards over simultaneously to reveal the numbers. This is the current "vote" on the estimated effort of the item.
 
-Recording. If all team members show the same value, then write the value on the item and go back to step three to vote on the effort to implement the next item in descending order of business value. (Or if there are no more items, then the process is complete.)
+#Recording. If all team members show the same value, then write the value on the item and go back to step three to vote on the effort to implement the next item in descending order of business value. (Or if there are no more items, then the process is complete.)
 
-Converging. If not everyone had the same vote - it wasn't unanimous - then the team needs to do additional votes to converge on a unanimous decision. The team members with the highest and the lowest value cards both briefly explain why they voted the way they did. If there is a Product Owner present, this person can add any clarifications about the item. No back and forth discussion or arguing, and no contributions from other team members are allowed at this time!
+#Converging. If not everyone had the same vote - it wasn't unanimous - then the team needs to do additional votes to converge on a unanimous decision. The team members with the highest and the lowest value cards both briefly explain why they voted the way they did. If there is a Product Owner present, this person can add any clarifications about the item. No back and forth discussion or arguing, and no contributions from other team members are allowed at this time!
 
-For any given item, if a team member is highest or lowest more than once, then each team their explanation must include new information or reasoning or depth. The team member cannot just repeat their reason from previous rounds of voting. This is in order to gradually add depth to the discussion, but only enough to get a converging vote!
+#For any given item, if a team member is highest or lowest more than once, then each team their explanation must include new information or reasoning or depth. The team member cannot just repeat their reason from previous rounds of voting. This is in order to gradually add depth to the discussion, but only enough to get a converging vote!
 
-Once explanations are complete, the team members collect their cards and go back to step three.
+#Once explanations are complete, the team members collect their cards and go back to step three.
 
-Notes:
+#Notes:
 It is extremely important that the voting for an item continues until all team members unanimously vote the same way. This rule ensures that team members and outside stakeholders cannot blame any individual for “wrong” estimates.
 
-]In Scrum, it is normal for the Product Owner to be present during this process, but not to participate in the voting as a team member unless they will be actively involved in the hands-on work of the Sprints.
+#]In Scrum, it is normal for the Product Owner to be present during this process, but not to participate in the voting as a team member unless they will be actively involved in the hands-on work of the Sprints.
 
-In OpenAgile, it is acceptable for people serving as Growth Facilitators for a team to participate in the voting.
+#In OpenAgile, it is acceptable for people serving as Growth Facilitators for a team to participate in the voting.
 
-Voting should not include extensive discussion. Multiple rounds of votes for a single item should occur quite quickly - no more than a couple of minutes per voting round.
+#Voting should not include extensive discussion. Multiple rounds of votes for a single item should occur quite quickly - no more than a couple of minutes per voting round.
 
-If more than one person has the lowest or highest vote, usually just one person shares their reason in order to help the process move quickly.
+#If more than one person has the lowest or highest vote, usually just one person shares their reason in order to help the process move quickly.
 
-The first few items will often take 10 or 15 rounds of voting before the team arrives at a unanimous vote. This can feel tedious, but is essential for helping the team to establish a common set of understandings about the work.
+#The first few items will often take 10 or 15 rounds of voting before the team arrives at a unanimous vote. This can feel tedious, but is essential for helping the team to establish a common set of understandings about the work.
 
-Later on, items may take just one or two rounds of voting to arrive at a unanimous decision.
+#Later on, items may take just one or two rounds of voting to arrive at a unanimous decision.
 
-Some teams, where trust levels are high, will discard with the use of physical cards and just briefly discuss votes. Do not do this if this is the first project the team has worked on together or if there are new team members in an otherwise well-established team.
+#Some teams, where trust levels are high, will discard with the use of physical cards and just briefly discuss votes. Do not do this if this is the first project the team has worked on together or if there are new team members in an otherwise well-established team.
 
-The Planning Poker process is also used any time that there is a change in the list of product backlog items: re-ordering, adding or removing items, or changes to a single item. When such a change happens, the team can re-estimate any item in the whole list. When starting a Cycle or Sprint or Iteration, all the items in the list should have up-to-date estimates so that estimation work is avoided in the planning meeting.
+#The Planning Poker process is also used any time that there is a change in the list of product backlog items: re-ordering, adding or removing items, or changes to a single item. When such a change happens, the team can re-estimate any item in the whole list. When starting a Cycle or Sprint or Iteration, all the items in the list should have up-to-date estimates so that estimation work is avoided in the planning meeting.
 
-Finally, the team can decide to re-estimate any items at any time for any reason. However, it is important for team members to remember that estimation is non-value-added work and the time spent on it should be minimized.
+#Finally, the team can decide to re-estimate any items at any time for any reason. However, it is important for team members to remember that estimation is non-value-added work and the time spent on it should be minimized.
